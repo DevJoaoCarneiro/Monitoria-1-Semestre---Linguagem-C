@@ -1,10 +1,3 @@
-/*
-
-    Autor: Pedro Gonella Barão
-    Data: 31/03/2025
-    Objetivo: Calculadora de desconto para associados
-
-*/
 
 #include <stdio.h>
 
