@@ -1,4 +1,13 @@
-
+/*Autor....Joao Victor
+  Objetivo.Faça um programa que lendo o nome, idade em anos e sexo de um associado de um clube concede desconto
+  na mensalidade a ser paga, observando:
+  sexo feminino até 30 anos desconto de 20%
+  sexo feminino 31 a 40 anos desconto de 30%
+  sexo feminino acima de 41 anos desconto de 35%
+  sexo masculino até 25 anos sem desconto
+  sexo masculino acima de 25 anos desconto de 25%.
+  Forneça nome, idade e mensalidade a pagar. */
+  
 #include <stdio.h>
 
 int main()

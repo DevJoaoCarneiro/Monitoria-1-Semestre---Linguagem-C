@@ -1,3 +1,12 @@
+/*Autor....Joao Victor
+  Objetivo.Faça um programa que lê o nome de um aluno, suas três notas e fornece o conceito obtido em função da sua
+  média considerando: nota1 - peso 2, nota2 - peso 3 nota3 - peso 5.
+  Média entre 0 - 4 (inclusive, inclusive) conceito D
+  Média entre 4 - 6 (exclusive , inclusive) conceito C
+  Média entre 6 - 8 (exclusive, inclusive ) conceito B
+  Média entre 8 - 10 (exclusive, inclusive) conceito A
+*/
+
 #include <stdio.h>
 
 int main()

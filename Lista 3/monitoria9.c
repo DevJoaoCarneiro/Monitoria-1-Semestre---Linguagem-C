@@ -1,3 +1,7 @@
+/*Autor....Joao Victor
+  Objetivo.Dado um número inteiro positivo identificar se o mesmo é par, ímpar, múltiplo de 3, múltiplo de 5 ou múltiplo de 7 
+*/
+
 #include <stdio.h>
 
 int main()

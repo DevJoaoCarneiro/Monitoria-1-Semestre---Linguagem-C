@@ -1,3 +1,8 @@
+/*Autor....Joao Victor
+  Objetivo. Ler duas variáveis A e B, se a variável A for menor que B, fazer Y= B – A, se B for menor que A fazer Y= A – B,
+  caso sejam iguais fazer Y = A + B, imprimir no final os valores de A, B e Y. 
+*/
+
 #include <stdio.h>
 
 int main(){

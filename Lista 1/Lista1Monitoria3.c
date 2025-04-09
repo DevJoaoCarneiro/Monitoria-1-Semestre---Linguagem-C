@@ -1,3 +1,18 @@
+/*Autor....Joao Victor
+  Data.....18/03/25
+  Objetivo.Um motorista de taxi deseja calcular o rendimento de seu carro na praça. Sabendo-se que o preço do
+  combustível é de R$ 5,24, escreva um algoritmo para ler: a marcação do hodômetro (Km) no início do dia, a
+  marcação (Km) no final do dia, o número de litros de combustível gasto e o valor total (R$) recebido dos
+  passageiros.
+  Apresentar como saída.:
+  • Marcação do Odômetro Inicial
+  • Marcação do Odômetro Final
+  • Quantidade de Quilômetros Percorridos no Dia.
+  • Lucro (líquido) do Dia
+  • Média do Consumo em Km/L
+  • Lucro (líquido) do Dia
+*/
+
 #include <stdio.h>
 
 int main(){

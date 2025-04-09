@@ -1,6 +1,7 @@
 /*Autor.....Joao Victor
   Data......24/03/25
-  Objetivo..Exec 4*/
+  Objetivo..Dado o preço de um produto em reais, converter este valor para o equivalente em dólares. O programa
+  deverá ler o preço e a taxa de conversão para o dólar.*/
 
   #include <stdio.h>
 

@@ -1,6 +1,17 @@
 /*Autor....Joao Victor
   Data.....18/03/25
-  Objetivo.Exercicio 01*/
+  Objetivo.Dado as seguintes informações de um funcionário: Nome, idade cargo e o seu salário bruto considere:
+  a) O salário bruto teve um reajuste de 38%.
+  b) O funcionário receberá uma gratificação de 20% do salário bruto.
+  c) O Salário total é descontado em 15% de Imposto de Renda
+  Faça um programa para:
+  • Imprimir Nome, idade e cargo.
+  • Imprimir o salário bruto Anterior.
+  • Imprimir o salário bruto corrigido.
+  • Imprimir o valor da gratificação.
+  • Imprimir o valor do desconto.
+  • Imprimir o salário líquido.
+*/
 
   #include <stdio.h>
 

@@ -1,3 +1,9 @@
+/*Autor....Joao Victor
+  Objetivo.Elaborar um algoritmo que efetue a leitura do nome e do sexo de uma pessoa, apresentando como saída uma
+  das seguintes mensagens: “ILMO SR.” Para o sexo Masculino; “ILMA SRA.”, para o sexo feminino. Apresente
+  também abaixo da mensagem o nome da pessoa
+*/
+
 #include <stdio.h>
 
 int main()

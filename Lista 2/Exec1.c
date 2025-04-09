@@ -1,6 +1,9 @@
 /*Autor.....Joao Victor
   Data......24/03/25
-  Objetivo..Exec 1*/
+  Objetivo..O preço de um automóvel é calculado pela soma do preço de fábrica com o preço dos impostos (45% do
+  preço de fábrica) e a percentagem do revendedor (28% do preço de fábrica).
+  Faça um algoritmo que leia o nome do automóvel e o preço de fábrica e escreva o nome do automóvel e o
+  preço final.*/
 
   #include <stdio.h>
 

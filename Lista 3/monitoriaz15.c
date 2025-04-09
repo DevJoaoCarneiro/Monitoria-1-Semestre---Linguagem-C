@@ -1,3 +1,18 @@
+/*Autor....Joao Victor
+  Objetivo.Faça um programa que fornece o seguinte menu de opções:
+  A- Cálculo da área do círculo
+  B- Cálculo da área do retângulo
+  C- Cálculo da área do trapézio;
+  D- Cálculo da área do triângulo
+  Fornecer saída do tipo :
+  “ A área do círculo de raio ______ é igual a ________ m2”
+  Obs.: . O programa deverá mostrar uma tela contendo as opções acima descritas.
+ .Deverá ser lido as informações de acordo com a opção selecionada, ou seja, para calcular a área de um
+  retângulo deverá usar a formula:
+  AREA = Lado X Altura, portado deverá ser lido as variáveis Lado e Altura.
+  OBS2: Pesquisar nos livros de matemática as fórmulas para cálculo das demais áreas 
+*/
+
 #include <stdio.h>
 
 int main()

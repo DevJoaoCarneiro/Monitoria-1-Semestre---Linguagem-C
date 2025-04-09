@@ -1,6 +1,7 @@
 /*Autor.....Joao Victor
   Data......24/03/25
-  Objetivo..Exec 3*/
+  Objetivo..Faça um programa que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa
+  apenas em dias. Assuma, neste programa, que um ano tem 365 dias e que um mês tem 30 dias. */
 
   #include <stdio.h>
 

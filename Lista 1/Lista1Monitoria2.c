@@ -1,3 +1,16 @@
+/*Autor....Joao Victor
+  Data.....18/03/25
+  Objetivo.Escreva um programa que dado os litros de combustível gasto e os quilômetros percorridos por um
+  automóvel, calcule os gastos de combustível em Reais, calcule também qual a média de consumo que o
+  carro teve durante a viagem.
+  (Considerar que um litro custa R$ 5,24)
+  Calcular e Escrever.:
+  • Litros de Combustível Gasto.
+  • Total de Quilômetros Percorridos.
+  • Total gasto de combustível em Real.
+  • Consumo Médio de Combustível.
+*/
+
 #include <stdio.h>
 
 int main(){

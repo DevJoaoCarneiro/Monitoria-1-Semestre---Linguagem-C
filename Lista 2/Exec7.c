@@ -1,6 +1,10 @@
 /*Autor.....Joao Victor
   Data......24/03/25
-  Objetivo..Exec 7*/
+  Objetivo..Escrever um programa c que lê o número de um vendedor, o nome, o seu salário fixo, o total de vendas por
+  ele efetuadas e o porcentual que ganha sobre o total de vendas.
+  Calcular o salário total do vendedor.
+  Escrever número do vendedor, o nome e o salário total. 
+*/
 #include <stdio.h>
 
 int main()

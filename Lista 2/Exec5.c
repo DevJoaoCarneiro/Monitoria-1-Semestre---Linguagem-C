@@ -1,6 +1,8 @@
 /*Autor.....Joao Victor
   Data......24/03/25
-  Objetivo..Exec 5*/
+  Objetivo..Dados três valores, calcular e escrever as médias 
+  aritmética e harmônica destes valores.
+  */
 #include <stdio.h>
 
 int main()

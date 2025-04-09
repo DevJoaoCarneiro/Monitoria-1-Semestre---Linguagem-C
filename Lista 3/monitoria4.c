@@ -1,3 +1,9 @@
+/*Autor....Joao Victor
+  Objetivo. Considerar três notas inteiras, encontrar a Média aritmética simples, entre as notas que correspondem aos
+  números, deixando de fora da media as notas impares. Se nenhuma for PAR emita a mensagem “NENHUMA
+  NOTA PAR”.
+*/
+
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,9 @@
+/*Autor....Joao Victor
+  Objetivo.Ler quatro valores referentes a quatro notas escolares de um aluno e imprimir uma mensagem dizendo que o
+  aluno foi aprovado, se o valor da media escolar for maior ou igual a 7. Se o valor da media for menor que 7
+  mostrar a mensagem que o aluno reprovou. 
+*/
+
 #include <stdio.h>
 
 int main()

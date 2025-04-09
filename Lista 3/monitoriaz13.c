@@ -1,3 +1,9 @@
+/*Autor....Joao Victor
+  Objetivo.Faça um programa que lê a hora inicial e final de um jogo, considerando apenas horas inteiras. Calcular a
+  duração do jogo em horas, sabendo que o tempo máximo de duração de um jogo é de 24 horas e que o jogo
+  pode começar em um dia e terminar no dia seguinte. 
+*/
+
 #include <stdio.h>
 
 int main()

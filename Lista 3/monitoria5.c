@@ -1,3 +1,7 @@
+/*Autor....Joao Victor
+  Objetivo. Determinar num conjunto de 3 números o menor deles, imprimindo-o e também o maior deles.
+*/
+
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,9 @@
+/*Autor....Joao Victor
+  Objetivo.Faça um programa que lê o nome de um funcionário, as horas por ele trabalhadas e seu salário/hora. O
+  programa deverá informar o salário final do funcionário, considerando 50% de acréscimo para horas extras.
+  Considere como padrão 40 horas semanais.
+*/
+
 #include <stdio.h>
 
 int main() {

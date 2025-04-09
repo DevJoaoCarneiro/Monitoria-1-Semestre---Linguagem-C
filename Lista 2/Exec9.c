@@ -1,6 +1,11 @@
 /*Autor.....Joao Victor
   Data......24/03/25
-  Objetivo..Exec 9*/
+  Objetivo..Uma revendedora de carros usados paga a seus funcionários vendedores, um salário fixo por mês, mais
+  uma comissão também fixa para cada carro vendido e mais 5% do valor das vendas por ele efetuadas.
+  Escrever um algoritmo que leia o número de carros por ele vendidos, o valor total de suas vendas, o salário
+  fixo e a comissão que recebe por carro vendido. Escreva um algoritmo que calcule e escreva o salário
+  mensal do vendedor.*/
+  
   #include <stdio.h>
 
   int main(){

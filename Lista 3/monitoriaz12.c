@@ -1,3 +1,8 @@
+/*Autor....Joao Victor
+  Objetivo.Faça um programa que determina o menor entre três valores inteiros lidos. 
+
+*/
+
 #include <stdio.h>
 
 int main()
