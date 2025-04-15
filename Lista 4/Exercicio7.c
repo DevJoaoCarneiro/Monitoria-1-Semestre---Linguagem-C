@@ -39,7 +39,7 @@ int main(){
         printf("Digite a altura do %d aluno...",i+1);
         scanf("%f", &altura);
 
-        if(i==1){
+        if(i==0){
             //Primeiro aluno cadastrado
             maisAltoNumero= codigo;
             maisBaixoNumero = codigo;
