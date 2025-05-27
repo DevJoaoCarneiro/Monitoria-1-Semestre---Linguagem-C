@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+float lerInteiro(char texto[]) {
+	float x;
+	do {
+	    printf("%s", texto);
+		scanf("%f", &x);
+		if(x<=0) {
+			printf("Digite um numero valido\n");
+		}
+	} while(x<=0);
+
+	return x;
+}
+
+int main() {
+	float altura;
+	float codigo;
+	float salario;
+
+	altura = lerInteiro("Digite sua altura...");
+	
+	
+	codigo=lerInteiro("Digite seu codigo.....");
+	
+
+	salario=lerInteiro("Digite seu salario...");
+
+
+
+	return 0;
+}

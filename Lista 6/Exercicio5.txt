@@ -1,0 +1,41 @@
+/*Autor....Joao Victor
+  Data.....26/05/25
+  Objetivo.Escreva um programa que:
+
+  Leia uma matriz 3x3 de inteiros;
+
+  Peça ao usuário um número;
+
+  Informe se esse número está presente na matriz e, se sim, em qual posição (linha e coluna). */
+
+#include <stdio.h>
+
+int main(){
+  int num[3][3];
+  int busca;
+  int i;
+  int j;
+  
+  for(i=0;i<3;i++){
+    for(j=0;j<3;j++){
+      printf("[%d] [%d] da matriz..:",i,j);
+      scanf("%d", &num[i][j]);
+    }
+  }
+  
+  printf("Digite o numero que deseja buscar...");
+  scanf("%d", &busca);
+  
+  for(i=0;i<3;i++){
+    for(j=0;j<3;j++){
+        if(num[i][j]==busca){
+          printf("Numero encontrado!! Na posicao %d %d\n", i,j);
+          break;
+        }    
+    }
+    printf("\n");
+  }
+
+
+  return 0;
+}

@@ -1,0 +1,22 @@
+/*Autor.....Joao Victor 
+  Data......27/05/25
+  Objetivo..Exercício 1.1: "Olá, Mundo... da Função!"
+
+            Crie uma função chamada imprimirSaudacaoInicial que não recebe parâmetros e não retorna valor (void).
+
+            Dentro dela, imprima a mensagem: "Funcoes em C: Comecando a jornada!".
+
+            Na função main, chame imprimirSaudacaoInicial.*/
+
+#include <stdio.h>
+
+void imprimirSaudacaoInicial(){
+    printf("Funcoes em C: Comecando a jornada!\n");
+}
+
+int main()
+{
+    imprimirSaudacaoInicial();
+
+    return 0;
+}

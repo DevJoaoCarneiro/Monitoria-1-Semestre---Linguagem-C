@@ -1,0 +1,41 @@
+/*Autor....Joao Victor
+  Data.....26/05/25
+  Objetivo.Desenvolva um programa que:
+
+  Leia uma matriz 3x4 de inteiros;
+
+  Calcule e exiba a soma dos elementos de cada linha. */
+
+#include <stdio.h>
+
+int main(){
+  int num[3][4];
+  int soma;
+  int i;
+  int j;
+  
+  for(i=0;i<3;i++){
+    for(j=0;j<4;j++){
+      printf("[%d] [%d] da matriz..:",i,j);
+      scanf("%d", &num[i][j]);
+    }
+  }
+  
+  for(i=0;i<3;i++){
+    for(j=0;j<4;j++){
+        printf("[%d] ",num[i][j]);
+    }
+    printf("\n");
+  }
+  
+  for(i=0;i<3;i++){
+    soma = 0;
+    for(j=0;j<4;j++){
+        soma+=num[i][j];    
+    }
+    printf("A soma da linha %d e igual..%d\n", i, soma);
+  }
+
+
+  return 0;
+}

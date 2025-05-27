@@ -1,0 +1,28 @@
+/*Autor.....Joao Victor 
+  Data......27/05/25
+  Objetivo..Crie uma função chamada converterCelsiusParaFahrenheit que recebe uma temperatura em graus Celsius (float) como parâmetro e retorna a temperatura equivalente em Fahrenheit (float).
+
+            Fórmula: F = (C * 9/5) + 32. (Cuidado com a divisão inteira! Use 9.0/5.0).
+
+            Na main, peça uma temperatura em Celsius, chame a função e imprima o resultado em Fahrenheit com duas casas decimais. */
+
+#include <stdio.h>
+
+float converterCelsiusParaFahrenheit(float celsius){
+    return (celsius*1.8)+32;
+}
+
+int main()
+{
+    float celsius;
+    float fahrenheit;
+    
+    printf("Digite a temperatura em celsius...");
+    scanf("%f", &celsius);
+    
+    fahrenheit = converterCelsiusParaFahrenheit(celsius);
+    
+    printf("A temperatura em fahrenheit e igual a ....%.2f",fahrenheit);
+
+    return 0;
+}

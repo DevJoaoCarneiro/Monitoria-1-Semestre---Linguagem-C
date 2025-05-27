@@ -1,0 +1,26 @@
+/*Autor.....Joao Victor 
+  Data......27/05/25
+  Objetivo..Quadrado de um Número
+
+            Crie uma função chamada calcularQuadrado que recebe um número inteiro como parâmetro e retorna o quadrado desse número (inteiro).
+
+            Na função main, peça ao usuário para digitar um número, chame calcularQuadrado e imprima o resultado.
+            Ex: "O quadrado de 5 eh 25." */
+
+#include <stdio.h>
+
+int calcularQuadrado(int x){
+    return x*x;
+}
+
+int main()
+{
+    int numero;
+    
+    printf("Digite um numero inteiro..:");
+    scanf("%d", &numero);
+    
+    printf("O quadrado do numero %d e igual a...%d",numero, calcularQuadrado(numero));
+
+    return 0;
+}

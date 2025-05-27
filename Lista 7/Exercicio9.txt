@@ -1,0 +1,43 @@
+/*Autor.....Joao Victor
+  Data......27/05/25
+  Objetivo..int lerInteiroNoIntervalo(char mensagemPrompt[], int min, int max)
+
+    Objetivo: Solicitar ao usuário um número inteiro e garantir que ele esteja dentro de um intervalo específico (inclusive).
+
+    Parâmetros:
+
+    mensagemPrompt (string) - A mensagem para o usuário.
+
+    min (int) - O valor mínimo permitido.
+
+    max (int) - O valor máximo permitido.*/
+ 
+#include <stdio.h>
+
+int lerInteiroIntervalo(char texto[], int min, int max) {
+	int x;
+	do {
+	    printf("%s", texto);
+		scanf("%d", &x);
+		if(x<min || x>max) {
+			printf("Digite um numero valido\n");
+		}
+	} while(x<min || x>max);
+
+	return x;
+}
+
+int main() {
+	
+    int idade;
+    int codigo;
+    int numero;
+    
+    
+    idade=lerInteiroIntervalo("Digite sua idade...", 18, 60);
+    codigo=lerInteiroIntervalo("Digite seu codigo.", 0, 100);
+    numero=lerInteiroIntervalo("Digite seu numero.", 35,55);
+
+
+	return 0;
+}

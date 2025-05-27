@@ -1,0 +1,53 @@
+/*Autor....Joao Victor
+  Data.....26/05/25
+  Objetivo.Leia duas matrizes 3x3 de inteiros;
+
+  Calcule a soma das duas matrizes (elemento a elemento)
+  
+  e exiba a matriz resultante. */
+#include <stdio.h>
+
+void exibeMatriz(int matriz[3][3]){
+  int i,j;
+  
+  for(i=0;i<3;i++){
+    for(j=0;j<3;j++){
+      printf("[%2d] ", matriz[i][j]);
+    }
+    printf("\n");
+  }
+  
+  printf("\n");
+}
+
+
+int main(){
+  int num[3][3];
+  int num2[3][3];
+  int matrizResultante[3][3];
+  int i;
+  int j;
+  
+  for(i=0;i<3;i++){
+    for(j=0;j<3;j++){
+      printf("[%d] [%d] da matriz 1 ..:",i,j);
+      scanf("%d", &num[i][j]);
+      
+      printf("[%d] [%d] da matriz 2 ..:",i,j);
+      scanf("%d", &num2[i][j]);
+    }
+  }
+  
+  
+  for(i=0;i<3;i++){
+    for(j=0;j<3;j++){
+      matrizResultante[i][j] = num[i][j] +num2[i][j]; 
+    }
+  }
+  
+  exibeMatriz(num);
+  exibeMatriz(num2);
+  exibeMatriz(matrizResultante);
+  
+  return 0;
+}

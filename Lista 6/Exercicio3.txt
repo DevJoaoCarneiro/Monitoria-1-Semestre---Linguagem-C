@@ -1,0 +1,35 @@
+/*Autor....Joao Victor
+  Data.....26/05/25
+  Objetivo.Escreva um programa que:
+
+  Leia uma matriz quadrada 5x5;
+
+  Mostre apenas os elementos da diagonal principal. */
+
+#include <stdio.h>
+
+int main(){
+  int num[5][5];
+  int i;
+  int j;
+  
+  for(i=0;i<5;i++){
+    for(j=0;j<5;j++){
+      printf("[%d] [%d] da matriz..:",i,j);
+      scanf("%d", &num[i][j]);
+    }
+  }
+  
+  for(i=0;i<5;i++){
+    for(j=0;j<5;j++){
+      if(i==j){
+        printf("[%2d] ",num[i][j]);
+      }else{
+        printf("[   ]");
+      }
+    }
+    printf("\n");
+  }
+
+  return 0;
+}

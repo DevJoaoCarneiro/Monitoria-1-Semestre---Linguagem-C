@@ -1,0 +1,43 @@
+/*Autor....Joao Victor
+  Data.....26/05/25
+  Objetivo.Crie um programa que:
+
+  Leia uma matriz 2x3 de inteiros;
+
+  Leia um número escalar;
+
+  Multiplique todos os elementos da matriz por esse número e exiba o resultado. */
+
+#include <stdio.h>
+
+int main(){
+  int num[2][3];
+  int escalar;
+  int i;
+  int j;
+  
+  for(i=0;i<2;i++){
+    for(j=0;j<3;j++){
+      printf("[%d] [%d] da matriz..:",i,j);
+      scanf("%d", &num[i][j]);
+    }
+  }
+  
+  printf("Digite um numero para multiplicar todos os elementos..");
+  scanf("%d", &escalar);
+  
+  for(i=0;i<2;i++){
+    for(j=0;j<3;j++){
+      num[i][j] = num[i][j] * escalar;
+    }
+  }
+  
+  for(i=0;i<2;i++){
+    for(j=0;j<3;j++){
+        printf("[%d] ",num[i][j]);
+    }
+    printf("\n");
+  }
+  
+  return 0;
+}

@@ -1,0 +1,50 @@
+/*Autor.....Joao Victor 
+  Data......27/05/25
+  Objetivo..Crie uma função chamada calcularIMC que recebe dois parâmetros float: peso (em kg) e altura (em metros).
+
+            A função deve calcular e retornar o IMC. Fórmula: IMC = peso / (altura * altura).
+
+            Crie outra função chamada interpretarIMC que recebe um float (o valor do IMC) como parâmetro e não retorna nada (void).
+
+            Dentro de interpretarIMC, imprima a categoria do IMC de acordo com a tabela:
+
+
+            Na main, peça o peso e a altura do usuário, chame calcularIMC para obter o valor, e depois chame interpretarIMC passando o IMC calculado.*/
+
+#include <stdio.h>
+
+float calcularImc(float altura, float peso){
+    return peso/(altura*altura);
+}
+
+void interpretarImc(float valorImc){
+    if(valorImc>=40.0){
+        printf("Obesidade grau III\n");
+    }else if(valorImc>=35.0){
+        printf("Obesidade grau II\n");
+    }else if(valorImc>=30.0){
+        printf("Obesidade grau I\n");
+    }else if(valorImc>=25.0){
+        printf("Sobrepeso\n");
+    }else if(valorImc>=18.5){
+        printf("Peso normal\n");
+    }else{
+        printf("Abaixo do peso\n");
+    }
+}
+int main()
+{
+    float peso;
+    float altura;
+    float imc;
+    
+    printf("Digite o seu peso...");
+    scanf("%f", &peso);
+    printf("Digite a sua altura.");
+    scanf("%f", &altura);
+    
+    imc = calcularImc(peso,altura);
+    interpretarImc(imc);
+
+    return 0;
+}

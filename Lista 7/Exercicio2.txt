@@ -1,0 +1,29 @@
+/*Autor.....Joao Victor 
+  Data......27/05/25
+  Objetivo..Mostrando seu Nome
+
+            Crie uma função chamada mostrarNomeCompleto que recebe uma string (vetor de caracteres, ex: char nome[]) como parâmetro e não retorna valor.
+
+            Dentro dela, imprima "Meu nome completo eh: [nome informado]".
+
+            Na função main, declare uma string com seu nome, peça ao usuário para digitá-lo (usando scanf ou fgets) e chame a função mostrarNomeCompleto passando o nome lido.
+            Dica para ler string com espaços: fgets(minhaString, tamanhoMaximo, stdin); e depois remova o \n se necessário.*/
+
+#include <stdio.h>
+
+void mostrarNomeCompleto(char nome[50]){
+    printf("Meu nome completo e...%s", nome);
+}
+
+int main()
+{
+    char nome[50];
+    
+    printf("Digite seu nome completo..:");
+    fflush(stdin);
+    fgets(nome, 50, stdin);
+    
+    mostrarNomeCompleto(nome);
+
+    return 0;
+}

@@ -1,0 +1,34 @@
+/*Autor.....Joao Victor 
+  Data......27/05/25
+  Objetivo..Crie uma função chamada verificarMaioridade que recebe um int (idade) como parâmetro.
+
+            A função deve retornar 1 (verdadeiro) se a idade for maior ou igual a 18, e 0 (falso) caso contrário.
+
+            Na main, peça a idade do usuário, chame a função e imprima "Maior de idade" ou "Menor de idade" com base no retorno. */
+
+#include <stdio.h>
+
+int verificaMaiorIdade(int x){
+    if(x>=18){
+        return 1;
+    }
+        return 0;
+    
+    
+}
+
+int main()
+{
+    int idade;
+    
+    printf("Digite sua idade...");
+    scanf("%d", &idade);
+    
+    if(verificaMaiorIdade(idade)==1){
+        printf("Voce e maior de idade\n");
+    }else{
+        printf("Voce e menor de idade\n");
+    }
+
+    return 0;
+}
