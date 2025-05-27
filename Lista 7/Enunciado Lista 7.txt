@@ -1,0 +1,69 @@
+Enunciados dos Exercícios de Funções em C
+
+Exercício 1: Olá, Mundo... da Função!
+Crie uma função chamada imprimirSaudacaoInicial que não recebe parâmetros e não retorna valor (void).
+Dentro dela, imprima a mensagem: "Funções em C: Começando a jornada!".
+Na função main, chame imprimirSaudacaoInicial.
+
+Exercício 2: Mostrando seu Nome
+Crie uma função chamada mostrarNomeCompleto que recebe uma string (vetor de caracteres, ex: char nome[]) como parâmetro e não retorna valor.
+Dentro dela, imprima "Meu nome completo eh: [nome informado]".
+Na função main, declare uma string com seu nome, peça ao usuário para digitá-lo (usando scanf ou fgets) e chame a função mostrarNomeCompleto passando o nome lido.
+
+Dica para ler string com espaços: fgets(minhaString, tamanhoMaximo, stdin); e depois remova o \n se necessário.
+
+Exercício 3: Quadrado de um Número
+Crie uma função chamada calcularQuadrado que recebe um número inteiro como parâmetro e retorna o quadrado desse número (inteiro).
+Na função main, peça ao usuário para digitar um número, chame calcularQuadrado e imprima o resultado.
+
+Ex: "O quadrado de 5 eh 25."
+
+Exercício 4: Conversor de Celsius para Fahrenheit
+Crie uma função chamada converterCelsiusParaFahrenheit que recebe uma temperatura em graus Celsius (float) como parâmetro e retorna a temperatura equivalente em Fahrenheit (float).
+
+Fórmula: F = (C * 9/5) + 32. (Cuidado com a divisão inteira! Use 9.0/5.0 ou 1.8).
+Na main, peça uma temperatura em Celsius, chame a função e imprima o resultado em Fahrenheit com duas casas decimais.
+
+Exercício 5: Verificador de Maioridade
+Crie uma função chamada verificarMaioridade que recebe um int (idade) como parâmetro.
+A função deve retornar 1 (verdadeiro) se a idade for maior ou igual a 18, e 0 (falso) caso contrário.
+Na main, peça a idade do usuário, chame a função e imprima "Maior de idade" ou "Menor de idade" com base no retorno.
+
+Exercício 6: Calculadora de IMC
+Crie uma função chamada calcularIMC que recebe dois parâmetros float: peso (em kg) e altura (em metros).
+A função deve calcular e retornar o IMC. Fórmula: IMC = peso / (altura * altura).
+Crie outra função chamada interpretarIMC que recebe um float (o valor do IMC) como parâmetro e não retorna nada (void).
+Dentro de interpretarIMC, imprima a categoria do IMC de acordo com a tabela:
+Abaixo de 18.5: Abaixo do peso
+Entre 18.5 e 24.9: Peso normal
+Entre 25 e 29.9: Sobrepeso
+Entre 30 e 34.9: Obesidade grau I
+Entre 35 e 39.9: Obesidade grau II
+Acima de 40: Obesidade grau III
+Na main, peça o peso e a altura do usuário, chame calcularIMC para obter o valor, e depois chame interpretarIMC passando o IMC calculado.
+
+Exercício 7: Leitor de Número Positivo (Float)
+Crie uma função chamada lerNumeroPositivo (no seu código original Exercicio8.txt está como lerInteiro, mas lê float) que recebe uma string (char texto[]) como parâmetro para o prompt.
+A função deve solicitar ao usuário um número (float).
+Se o número digitado for menor ou igual a zero, deve exibir "Digite um número válido" e pedir novamente.
+A função deve retornar o número float positivo lido.
+Na main, use esta função para ler a altura, um código (que será float) e o salário.
+
+Exercício 8: Leitor de Inteiro em Intervalo
+Crie uma função chamada lerInteiroNoIntervalo que recebe uma string (char mensagemPrompt[]) para o prompt, um valor mínimo (int min) e um valor máximo (int max) como parâmetros.
+A função deve solicitar ao usuário um número inteiro.
+Se o número digitado for menor que min ou maior que max, deve exibir "Digite um numero valido" e pedir novamente.
+A função deve retornar o número inteiro validado que está dentro do intervalo.
+Na main, use esta função para ler uma idade (entre 18 e 60), um código (entre 0 e 100) e um número (entre 35 e 55).
+
+Exercício 9: Jogo de Adivinhação
+Crie um jogo onde o computador "pensa" em um número secreto (entre 1 e 100) e o jogador tenta adivinhar.
+Crie uma função void darDica(int palpite, int numeroSecreto) que informa se o palpite está muito alto ou muito baixo.
+Crie uma função void jogarAdivinhacao() que:
+Inicializa a semente do gerador aleatório (srand(time(NULL));).
+Gera um número aleatório entre 1 e 100.
+Entra em um loop pedindo palpites ao usuário.
+Valida se o palpite está entre 0 e 100.
+Se o palpite estiver correto, exibe "Voce acertou na mosca!!" e encerra.
+Caso contrário, chama darDica.
+Na main, chame jogarAdivinhacao().
