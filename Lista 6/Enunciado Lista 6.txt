@@ -1,0 +1,56 @@
+# Lista de Exercícios - Matrizes em C
+
+Este repositório contém a resolução dos seguintes exercícios sobre matrizes na linguagem C.
+
+## Exercícios
+
+### Exercício 1
+Escreva um programa em C que:
+* Leia uma matriz 3x3 de números inteiros;
+* Exiba os elementos da matriz na forma matricial.
+
+### Exercício 2
+Faça um programa que:
+* Leia uma matriz 4x4 de números inteiros;
+* Calcule e imprima a soma de todos os elementos da matriz.
+
+### Exercício 3
+Escreva um programa que:
+* Leia uma matriz quadrada 5x5;
+* Mostre apenas os elementos da diagonal principal.
+
+### Exercício 4
+Faça um programa que:
+* Leia uma matriz quadrada 4x4;
+* Exiba somente os elementos da diagonal secundária.
+
+### Exercício 5
+Escreva um programa que:
+* Leia uma matriz 3x3 de inteiros;
+* Peça ao usuário um número;
+* Informe se esse número está presente na matriz e, se sim, em qual posição (linha e coluna).
+
+### Exercício 6
+Desenvolva um programa que:
+* Leia uma matriz 3x4 de inteiros;
+* Calcule e exiba a soma dos elementos de cada linha.
+
+### Exercício 7
+Modifique o exercício anterior (Exercício 6, que lê uma matriz 3x4 de inteiros) para:
+* Calcular e exibir a soma dos elementos de cada coluna.
+
+### Exercício 8
+Escreva um programa que:
+* Leia uma matriz 3x3;
+* Gere e exiba a matriz transposta.
+
+### Exercício 9
+Crie um programa que:
+* Leia uma matriz 2x3 de inteiros;
+* Leia um número escalar;
+* Multiplique todos os elementos da matriz por esse número e exiba o resultado.
+
+### Exercício 10
+Crie um programa que:
+* Leia duas matrizes 3x3 de inteiros;
+* Calcule a soma das duas matrizes (elemento a elemento) e exiba a matriz resultante.
